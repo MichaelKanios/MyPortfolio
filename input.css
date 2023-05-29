@@ -5,7 +5,9 @@
 @layer components{
    .skill_style{
     @apply
-    py-5
+    py-1
+    md:py-5
+    xl:py-5
     rounded-xl
     border-2
     grid
@@ -17,7 +19,7 @@
     drop-shadow-xl
     dark:bg-slate-600 
     dark:text-white
-        text-black
+    text-black
     }
 }
 
@@ -42,7 +44,9 @@
         @apply
         self-center
         w-full
-        pl-12
+        pl-5
+        md:pl-12
+        xl:pl-12
         list-disc
         list-inside
         xl:text-left
@@ -55,18 +59,20 @@
     .titles{
         @apply
         m-20
-        text-5xl
+        text-3xl
         md:text-6xl
         xl:text-6xl
         text-center
-         text-orange-700
-         font-fraun
+        text-orange-700
+        font-fraun
     }
 }
 @layer components{
     .skills_icons{
         @apply
-        w-28
+        w-24
+        md:w-28
+        xl:w-28
        
     }
 }
