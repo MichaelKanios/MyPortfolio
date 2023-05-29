@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces&family=Montserrat+Alternates&display=swap"rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">    
+    <link rel="icon" type="image/png" sizes="32x32" href="">
+    <title>Michael Kanios Portfolio</title>
+</head>
+
+<body class="overflow-x-hidden m-3 text-md dark:bg-slate-800 dark:text-white">
+    <!--Start Menu  -->
+    <div class="flex justify-between items-center mx-5 xl:mx-10">
+        <div>
+            <img class="w-24 items-center dark:rounded-full animate-fadeInSlideRightDown" src="images/LOGO.jpg" alt="MyLogo">
+        </div>
+ <!-- Dark or Light mode-->       
+        <div class="flex opacity-1 pl-5 ">            
+            <img class="moon cursor-pointer w-6 md:w-8 xl:w-8" src="images/moon.png" alt="moon">
+            <img class="sun cursor-pointer ml-3 h-6 md:h-8 xl:h-8" src="images/sun.png" alt="sun">            
+        </div>
+    
+        <div class="invisible md:visible xl:visible font-fraun text-xl dark:text-white">            
+            <a class="desktop_tablet_menu "href="#mk">M.K</a>
+            <a class="desktop_tablet_menu" href="#experience">Experience</a>
+            <a class="desktop_tablet_menu" href="#skills">Skills</a>
+            <a class="desktop_tablet_menu" href="#education">Education</a>
+            <a class="desktop_tablet_menu" href="#projects">Projects</a>
+            <a class="desktop_tablet_menu" href="#contact">Contact</a>
+        </div>
+        <div class="text-xl text-gray-700 cursor-pointer ml-4 md:hidden xl:hidden block hover:text-orange-700 transition " id="open_sidebar">
+                <svg class="w-6 h-6 " aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+        </div>
+
+    </div>
+
+    <!--End of Menu-->
+
+    <!--Mobile Menu-->
+<div class="fixed font-fraun w-full h-full bg-black bg-opacity-25 left-0 top-0 opacity-0 invisible transition-all duration-500 md:hidden xl:hidden "id="sidebar_wrapper">
+    <div class="fixed top-0 w-72 h-full bg-white shadow-sm flex flex-col transition-all duration-500 -left-80"id="sidebar">
+        <div class="lg:hidden flex flex-col mt-4 ">
+            <img class="w-24 self-center text-slate-700 hover:text-orange-700" src="images/LOGO.jpg" alt="MyLogo">
+            <a href="#experience" class="mobile_menu text-slate-700 hover:bg-red-400 easy-in-out duration-200 hover:text-white p-3 rounded-xl ">Experience</a>
+            <a href="#skills" class="mobile_menu text-slate-700 hover:bg-red-400 easy-in-out duration-200 hover:text-white p-3 rounded-xl">Skills</a>
+            <a href="#education" class="mobile_menu text-slate-700 hover:bg-red-400 easy-in-out duration-200 hover:text-white p-3 rounded-xl">Education</a>
+            <a href="#project" class="mobile_menu text-slate-700 hover:bg-red-400 easy-in-out duration-200 hover:text-white p-3 rounded-xl">Projects</a>
+            <a href="#contact" class="mobile_menu text-slate-700 hover:bg-red-400 easy-in-out duration-200 hover:text-white p-3 rounded-xl">Contact</a>
+            <div class="flex mt-4 ">
+                <a target="_blank" href="https://www.linkedin.com/in/kaniosmichael/"><img class="hover:scale-110 duration-300 ml-6 w-8" src="images/linkedin.png"alt=""></a>
+                <a target="_blank" href="https://github.com/MichaelKanios"><img class="hover:scale-110 w-8 ml-4" src="images/github.png" alt=""></a>
+                <a target="_blank" href="https://www.instagram.com/mkanios77/"><img class="hover:scale-110 w-8 ml-4" src="images/instagram.png" alt=""></a>
+                <a target="_blank" href="https://www.facebook.com/michael.kanios/"><img class="hover:scale-110 w-8 ml-4" src="images/facebook.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--End Mobile Menu-->
+    <!-- M.K Ssection starts here-->
+    <div id="mk" class="grid md:grid-cols-2 xl:grid-cols-2 text-center justify-items-center items-center">
+        <div class="">
+            <div class="">
+                <h1 class="text-6xl pb-2 font-fraun animate-fadeInSlideRightDown">Hi, I'm</h1>
+                <h2 class="text-6xl text-rose-700 pb-4 font-fraun animate-fadeInSlideRightDown">Michael</h2>
+                <p class="font-monts leading-loose">Self-taught Web and Wordpress developer.</p>
+                <p class="font-monts leading-loose">It's my passion and I always</p>
+                <p class="font-monts leading-loose">practice and learn something new.</p>
+            </div>
+            <div class="py-10  ">
+                <h2 class="pb-5 font-monts font-semibold">Download my curriculum vitae:</h2>
+                <div class="flex justify-between ">
+                    <a class="px-3 py-3 all_button" href="#">DOWNLOAD CV</a>
+                    <a class="px-6 py-3 all_button animate-fadeInSlideRightDown " href="#contact">CONTACT ME</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-3/4">
+            <img class="drop-shadow-2xl rounded-xl animate-fadeInSlideRightDown" src="images/Main.jpg" alt="">
+        </div>
+    </div>
+    <!-- M.K Section ends here-->
+
+    <!-- Experience Section starts here-->
+    <h1 id="experience" class="titles ">My Experience</h1>
+
+    <div class="xl:flex xl:flex-col ">
+        <div class="skill_style  mb-10 md:mx-20 ">
+            <a target="_blank" href="https://pinkup.gr">
+                <div class="w-full h-96 overflow-auto touch-pan-y">
+                    <img class="w-[100%] max-w-none h-auto " src="images/Pinkup_Screen.jpg" alt="">
+                </div>
+            </a>
+            <ul class="experience font-monts ">
+                <p class="font-semibold text-center pb-3">Wordpress Support Specialist.<br>(Athens-Sep 2018-Present)</p>
+                <p class="font-semibold underline">Responsibilities</p>
+                <li>Setup Wordpress via Plesk</li>
+                <li>Setup SSL</li>
+                <li>Configure Theme and pluging</li>
+                <li>Configure Woocommerce</li>
+                <li>Customize pages with Elementor</li>
+                <li>Design photos and banners</li>
+                <li>Backup via Ftp</li>
+                <li>Troubleshooting and Support </li>
+                <li>Google analytics</li>
+                <li>Facebook-Instagram shop</li>
+                <li>Basic SEO perfomance</li>
+                <div class="flex flex-col ">
+                    <li>Basic Social media Marketing</li>
+                    <a target="_blank" class="all_button px-10 mt-5 mr-8 text-base " href="https://pinkup.gr">Explore</a>
+                </div>
+            </ul>
+        </div>
+
+        <div class="skill_style mb-10 md:mx-20  ">
+            <a target="_blank" href="https://kalimerawholesale.gr/athens">
+                <div class="w-full h-96 overflow-auto touch-pan-y">
+                    <img class="w-[100%] max-w-none h-auto" src="images/kalimerawholesale_Screen.jpg" alt="">
+                </div>
+            </a>
+            <ul class="experience font-monts">
+                <p class="font-semibold text-center pb-3">Wordpress Support Specialist.<br>(Athens Sep 2017-Present)</p>
+                <p class="font-semibold underline">Responsibilities</p>
+                <li>Setup Wordpress via Plesk</li>
+                <li>Setup SSL</li>
+                <li>Configure Theme and pluging</li>
+                <li>Customize pages with Elementor</li>
+                <li>Design photos and banners</li>
+                <li>Backup via Ftp</li>
+                <li>Troubleshooting and Support </li>
+                <li>Google analytics</li>
+                <div class="flex flex-col">
+                    <li class="pb-24">Basic SEO perfomance</li>
+                    <a target="_blank" class="all_button px-10 mt-5 mr-8 text-base "href="https://kalimerawholesale.gr/athens">Explore</a>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <!-- Experience Section ends here-->
+
+    <!-- Skills Section starts here-->
+
+    <h1 id="skills" class="titles">My Hard Skills</h1>
+    <div class="grid grid-cols-1 gap-10 md:grid-cols-1  xl:grid-cols-2 md:mx-20 xl:mx-20 text-center font-monts text-sm md:text-base xl:text-base ">
+        <div class="drop-shadow-xl rounded-lg  ">
+            <div class="flex skill_style w-full ">
+                <img class="skills_icons" src="images/html-5.png" alt="">
+                <img class="skills_icons" src="images/css.png" alt="">
+                <div class="self-center pr-1">
+                    <p>I have excellent knowledge <br> of html and css,</p>
+                    <p>however, I still try to <br> learn and evolve. </p>
+                </div>
+            </div>
+        </div>
+        <div class="drop-shadow-xl rounded-lg">
+            <div class="flex skill_style w-full">
+                <img class="skills_icons " src="images/wordpress.png" alt="">
+                <img class="skills_icons " src="images/woo.png" alt="">
+                <div class="self-center pr-1">
+                    <p>I'm capable of using <br>WordPress to make something </p>
+                    <p>beautiful and practical.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div
+        class="mt-10  grid grid-cols-1 gap-10 md:grid-cols-1 xl:grid-cols-2 md:mx-20 xl:mx-20 text-center font-monts text-sm md:text-base xl:text-base">
+        <div class="drop-shadow-xl rounded-lg ">
+            <div class="flex skill_style w-full">
+                <img class="rounded-lg w-60 h-32" src="images/tailwindcss-logotype.svg" alt="">
+                <div class="self-center p-2">
+                    <p>I have excellent knowledge of <br>tailwind and I can build</p>
+                    <p>any project by heart.</p>
+                </div>
+            </div>
+        </div>
+        <div class="drop-shadow-xl rounded-lg">
+            <div class="flex skill_style w-full">
+                <img class="skills_icons" src="images/php.png" alt="">
+                <img class="w-36" src="images/java-script.png" alt="">
+                <div class="self-center pr-1">
+                    <p>I have basic knowledge of <br>php and Java Script.</p>
+                    <p>I can understand the code, but<br>I'm still learning.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Education Section starts here-->
+    <h1 id="education" class="titles">Education</h1>
+
+  <!--  <div class="grid grid-cols-1 md:grid-rows-2 xl:grid-rows-2 md:grid-cols-2 xl:grid-cols-2 gap-2.5 md:mx-20 xl:mx-20 bg-stone-100 drop-shadow-xl rounded-lg font-monts text-base">-->
+<div class="dark:bg-slate-600 dark:text-white grid grid-cols-1 xl:flex md:mx-20 xl:mx-20 bg-stone-100 drop-shadow-xl rounded-lg font-monts text-base justify-items-center p-4 mb-10">
+  <div class="md:w-3/4  xl:w-1/2">
+    <img class="rounded-lg md:skew-x-12 xl:skew-x-12 hover:duration-500 hover:origin-bottom" src="images/education.jpg" alt="">
+  </div>
+  <div class=" xl:w-1/2 text-center self-center ">
+    <p class="font-semibold text-center text-base md:text-lg xl:text-lg pt-2">Public Vocational Training Institute "Athens"</p>
+    <p class="italic text-center pb-4">Expert in information technology applications</p>
+    <p class="xl:leading-loose p-2">Operating System installation and use: Windows, Linux, Mac</p>
+    <p class="xl:leading-loose p-2">Connection and installation of external and internal devices in the system.</p>
+    <p class="xl:leading-loose p-2">Microsoft office applications Word,Excel,Power Point,Access</p>
+    <p class="xl:leading-loose p-2">Entry level of programming C++, Visual Basic,SQL</p>
+  </div>
+
+</div>
+
+<div class="dark:bg-slate-600 dark:text-white grid grid-cols-2  xl:flex md:mx-20 xl:mx-20 bg-stone-100 drop-shadow-xl rounded-lg font-monts text-base justify-items-center p-4">
+        <div class="text-center xl:w-1/2 col-span-2 self-center">
+          <p class="font-semibold text-base md:text-lg xl:text-lg">Udemy Courses</p>
+          <p class="xl:leading-loose p-1">Tailwind CSS 3 | Learn By Building Multiple Projects A-Z</p>
+          <p class="xl:leading-loose p-1">WordPress Theme Development from Scratch 2.0</p>
+          <p class="xl:leading-loose p-1">WooCommerce Theme Development: Advanced Course</p>
+          <p class="xl:leading-loose p-1">Creating WordPress Plugins The Right Way</p>
+          <p class="xl:leading-loose p-1">PHP for Beginners</p>
+          <p class="xl:leading-loose p-1">Laravel 9 -Build Complete Multi Vendor Ecommerce Project A-Z</p>
+          <p class="xl:leading-loose p-1">The Web Developer Bootcamp 2023</p>
+          <p class="xl:leading-loose p-1">CSS - The Complete Guide 2023 (incl. Flexbox, Grid & Sass)</p>
+          <p class="xl:leading-loose p-1">Build Responsive Real-World Websites with HTML and CSS</p>
+        </div>
+        <div class=" md:w-3/4 xl:w-1/2 col-span-2 row-start-1 ">
+        <img class="rounded-lg md:skew-x-12 xl:skew-x-12 hover:duration-500 hover:origin-top " src="images/udemy.jpg" alt="">
+      </div>
+</div>
+  <!--  </div>-->
+    <!-- Education Section ends here-->
+
+    <!-- Projects Section starts here-->
+    <h1 id="projects" class="titles">My Projects</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 md:m-20 xl:m-20 font-monts  text-center gap-10 text-base md:text-lg xl:text-lg">
+        <div class="dark:bg-slate-600 dark:text-white bg-stone-100  rounded-lg">
+            <div class="rounded-2xl ">
+                <img class="p-5 " src="images/Pinkup_myProject.jpg" alt="">
+            </div>
+            <div class="flex flex-col justify-center  ">
+                <img class="w-16 self-center " src="images/wordpress.png" alt="">
+                <p>Woo clothing e-shop.</p>
+                <p>made for a customer....</p>
+                <p class="text-sm italic">Cerato theme-Elementor.</p>
+                <a target="_blank" class="all_button self-center text-base px-10 my-10 drop-shadow-xl "
+                    href="https://pinkup.gr">Explore</a>
+            </div>
+        </div>
+
+        <div class="dark:bg-slate-600 dark:text-white bg-stone-100 drop-shadow-xl rounded-lg">
+            <div class=" rounded-2xl drop-shadow-xl ">
+                <img class="p-5" src="images/Kalimera_myProject.jpg" alt="">
+            </div>
+            <div class="flex flex-col justify-center ">
+                <img class="w-16 self-center " src="images/wordpress.png" alt="">
+                <p>Business page</p>
+                <p>made for a customer.</p>
+                <p class="text-sm italic">I use Elementor.</p>
+                <a target="_blank" class="all_button self-center px-10 my-10 text-base drop-shadow-xl"
+                    href="https://kalimerawholesale.gr/athens">Explore</a>
+            </div>
+        </div>
+
+        <div class="dark:bg-slate-600 dark:text-white bg-stone-100 drop-shadow-xl rounded-lg">
+            <div class=" rounded-2xl drop-shadow-xl ">
+                <img class="p-5" src="images/Portfolio_Project.jpg" alt="">
+            </div>
+            <div class="flex flex-col justify-center ">
+                <img class="w-16 self-center " src="images/tailwindcss-icon.svg" alt="">
+                <p>My portfolio page</p>
+                <p>from scratch.</p>
+                <p class="text-sm italic">I use only Tailwind.</p>
+                <a target="_blank" class="all_button self-center px-10 my-10 drop-shadow-xl text-base"
+                    href="#">Explore</a>
+            </div>
+        </div>
+
+        <div class="dark:bg-slate-600 dark:text-white bg-stone-100 drop-shadow-xl rounded-lg">
+            <div class=" rounded-2xl drop-shadow-xl ">
+                <img class="p-5 " src="images/Codewell_Project.jpg" alt="">
+            </div>
+            <div class="flex flex-col justify-center ">
+                <img class="w-16 self-center dark:rounded-full" src="images/codewell.jpg" alt="">
+                <p>This is a codewell</p>
+                <p>project for practise.</p>
+                <p class="text-sm italic">I use only Tailwind.</p>
+                <a target="_blank" class="all_button self-center px-10 my-10 drop-shadow-xl text-base"
+                    href="https://michaelkanios.github.io/Web-Developer-Portfolio-Tailwind-Codewell/">Explore</a>
+            </div>
+        </div>
+
+    </div>
+
+        <!-- Front end Mentor project section-->
+
+        <div class="mt-10 dark:bg-slate-600 dark:text-white md:col-span-2  xl:col-span-2 bg-stone-50 drop-shadow-xl rounded-lg font-monts  md:m-20 xl:m-20 text-lg ">
+            <div class="dark:bg-slate-400 dark:text-white flex justify-center rounded-lg  bg-stone-200 ">
+                <img class="w-12 rounded-full" src="images/frontend_mentor.svg" alt="">
+                <p class="my-6 pl-3 self-center text-xl font-semibold ">Front End Mentor</p>
+            </div>
+            <div class="w-full h-96 overflow-auto touch-pan-y">
+                <div class="grid gid-cols-2 md:grid-cols-3 xl:grid-cols-3 gap-10 p-5 text-center ">
+                    <div class="flex flex-col items-center ">
+                        <p class="underline mb-5">Fylo landing page</p>
+                        <a target="_blank" href="https://michaelkanios.github.io/Fylo-Landing-Page-with-Tailwind/">
+                            <div class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                                <img src="images/fylo.jpg" class="front_end_zoom ease-in-out "
+                                    alt="fylo">
+                        </a>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center">
+                    <p class="underline mb-5">Results summary</p>
+                    <a target="_blank" href="https://michaelkanios.github.io/Result-summary-component/">
+                        <div class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                            <img class="front_end_zoom ease-in-out" src="images/result.jpg"
+                                alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="flex flex-col items-center">
+                <p class="underline mb-5">Huddle landing page</p>
+                <a target="_blank" href="https://michaelkanios.github.io/Huddle-landing-page-with-curved-sections/">
+                    <div class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                        <img class="front_end_zoom ease-in-out " src="images/huddle.jpg"
+                            alt="">
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <p class="underline mb-5">Clipboard landing page</p>
+            <a target="_blank" href="https://michaelkanios.github.io/2nd_Edition_Clipboard-Landing-Page-Full-response-/">
+                <div class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                    <img class="front_end_zoom ease-in-out" src="images/clipboard.jpg" alt="">
+            </a>
+        </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <p class="underline mb-5">Social proof section</p>
+            <a target="_blank" href="https://michaelkanios.github.io/Social-proof-section-Flex-only-/">
+                <div class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                    <img class="front_end_zoom ease-in-out " src="images/social.jpg" alt="">
+            </a>
+        </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <p class="underline mb-5">News homepage</p>
+            <a target="_blank" href="https://michaelkanios.github.io/News-Home-page-Grid-Flex-/">
+                <div class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                    <img class="front_end_zoom ease-in-out" src="images/news.jpg" alt="">
+            </a>
+        </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <p class="underline mb-5">Testimonials grid section</p>
+            <a target="_blank" href="https://michaelkanios.github.io/Testimonials-grid-section-Grid-Flex-/">
+                <div class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                    <img class="front_end_zoom ease-in-out" src="images/testimonials.jpg"
+                        alt="">
+            </a>
+        </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <p class="underline mb-5">Single price grid </p>
+            <a target="_blank" href="https://michaelkanios.github.io/Single-price-grid-component-Grid-/">
+                <div class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                    <img class="front_end_zoom ease-in-out" src="images/single.jpg" alt="">
+            </a>
+        </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <p class="underline mb-5">NFT card</p>
+            <a target="_blank" href="https://michaelkanios.github.io/NFT-preview-card-component-FLEX-/">
+                <div class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                    <img class="front_end_zoom ease-in-out " src="images/nft.jpg" alt="">
+            </a>
+        </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <p class="underline mb-5">Stats card </p>
+            <a target="_blank" href="https://michaelkanios.github.io/Stats-Preview-Card-Flex-Grid-/">
+                <div class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                    <img class="front_end_zoom ease-in-out" src="images/stats.jpg" alt="">
+            </a>
+        </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <p class="underline mb-5">Order summary </p>
+            <a target="_blank" href="https://michaelkanios.github.io/Order-summary-component-Flex-/">
+                <div class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                    <img class="front_end_zoom ease-in-out" src="images/order.jpg" alt="">
+            </a>
+        </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <p class="underline mb-5">Four card</p>
+            <a target="_blank" href="https://michaelkanios.github.io/Four-card-feature-section-Grid-/">
+                <div class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                    <img class="front_end_zoom ease-in-out" src="images/four_card.jpg" alt="">
+            </a>
+        </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <p class="underline mb-5">3-column card</p>
+            <a target="_blank" href="https://michaelkanios.github.io/3-column-preview-card-component-FLEX/">
+                <div class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                    <img class="front_end_zoom ease-in-out" src="images/3_column.jpg" alt="">
+            </a>
+        </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <p class="underline mb-5">QR code component</p>
+            <a target="_blank" href="https://michaelkanios.github.io/QR-Code-componet--Frontend-Mentor-Challenge-FLEX/">
+                <div class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                    <img class="front_end_zoom ease-in-out" src="images/qr.jpg" alt="">
+            </a>
+        </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <p class="underline mb-5">Product preview card </p>
+            <a target="_blank" href="https://michaelkanios.github.io/Product-preview-card-component-FLEX/">
+                <div class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                    <img class="front_end_zoom ease-in-out" src="images/product.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Projects Section end here-->
+
+
+    <h1 id="contact" class="titles">Contact</h1>
+    <!-- Contact Us -->
+    <div class="grid grid-cols-1 md:grid-cols-6 xl:grid-cols-6 md:m-20 xl:m-20 md:gap-10 xl:gap-10 font-monts " >
+        <div class="dark:bg-slate-600 dark:text-white  bg-stone-100 drop-shadow-xl rounded-lg col-span-2  p-4 text-center ">
+            <img class="rounded-xl" src="images/Let_s talk.jpg" alt="">
+            <h3 class="font-semibold text-base md:text-lg xl:text-lg my-3">Kanios Michael</h3>
+            <p class="italic">I am available for freelance work. <br>You can contact me via email ,Linkedin <br> or just by filling the form.
+            </p>
+            <div class="flex  my-4 justify-center md:justify-start xl:justify-start">
+                <img class="w-8 md:w-10" src="images/receive-mail.png" alt="">
+                <a target="_blank" class="pl-2  xl:pl-3 hover:underline easy-in-out duration-200 hover:text-black self-center hover:scale-110"href="mailto:mkanios77@gmail.com">Email</a>
+
+
+
+            </div>
+            <div class="flex justify-center  md:justify-start xl:justify-start">
+                <img class="w-8 md:w-10" src="images/linkedin.png" alt="">
+                <a target="_blank" class="pl-2  xl:pl-3 hover:underline easy-in-out duration-200 hover:text-black self-center hover:scale-110"href="https://www.linkedin.com/in/kaniosmichael/">Kanios Michael</a>
+            </div>
+
+        </div>
+
+        <div class="mt-10 md:mt-0 xl:mt-0 dark:bg-slate-400 dark:text-white  drop-shadow-2xl col-span-4 bg-stone-100 rounded-lg ">
+            <div class="text-center ">
+                <h2 class="font-semibold text-base md:text-xl xl:text-xl  mt-8">Let's talk</h2>
+                <p class="italic text-base">"I love talking about how I can help you"</p>
+            </div>
+
+            <!--Form-->
+            <form class="dark:bg-slate-600 dark:text-white "action="https://formsubmit.co/mkanios77@gmail.com" method="POST">
+                <div class="dark:bg-slate-600 dark:text-white  grid grid-cols-1 p-4 md:grid-cols-2 xl:grid-cols-2 md:gap-5 xl:gap-5">
+                    <div class=" ">
+                        <label class="font-semibold" for="your-name">Your Name</label>
+                        <input type="text" name="name-input" required class="border-b-4 rounded-lg py-2 w-full" >
+                    </div>
+                    <div class="">
+                        <label class="font-semibold" for="phone-number">Phone Number</label>
+                        <input type="text" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="2101234567" name="name-input" class="border-b-4 rounded-lg py-2 w-full" >
+                    </div>
+                </div>
+                <div class="p-4">
+                    <label class="font-semibold peer " for="email">Your Email*</label>
+                    <input type="email" name="name-input" id="name" required class="border-b-4 rounded-lg py-2 w-full" >
+                    <label class="font-semibold" for="subject">Subject</label>
+                    <input type="text" name="name-input" required class="border-b-4 rounded-lg py-2 w-full" value="">
+                    <label class="font-semibold" for="large-input">Message</label>
+                    <!--<input type="text" name="name-input"class="border-b-4 rounded-lg py-10 w-full" value="">-->
+                    <textarea id="message" rows="8" required  class="border-b-4 rounded-lg w-full italic "
+                        placeholder="Your message..."></textarea>
+                    <button type="submit"
+                        class="mt-5 easy-in-out duration-300 bg-red-400 hover:bg-stone-800 text-white rounded-lg text-lg w-full text-center py-4">Send
+                        Message</button>
+                    <p class="italic text-sm pt-2">*I will never send you spam e-mails</p>
+                </div>
+                </div>
+                </div>
+                
+            </form>
+            
+    <!-- Contact Section ends here-->
+
+    <!-- Footer -->
+    <div
+        class="dark:bg-slate-400 dark:text-white grid grid-cols-1 md:grid-cols-6 xl:grid-cols-6 md:m-20 xl:m-20 bg-stone-100 drop-shadow-xl rounded-lg py-5 font-monts">
+        <div class="col-span-2">
+            <div class="flex justify-center ">
+            <a target="_blank" href="https://www.linkedin.com/in/kaniosmichael/"><img class="w-10 hover:scale-110 duration-200"
+                    src="images/linkedin.png" alt=""></a>
+            <a target="_blank" href="https://github.com/MichaelKanios"><img class="w-10 ml-4 hover:scale-110 duration-200"
+                    src="images/github.png" alt=""></a>
+            <a target="_blank" href="https://www.instagram.com/mkanios77/"><img class="w-10 ml-4 hover:scale-110 duration-200"
+                    src="images/instagram.png" alt=""></a>
+            <a target="_blank" href="https://www.facebook.com/michael.kanios/"><img class="w-10 ml-4 hover:scale-110 duration-200"
+                    src="images/facebook.png" alt=""></a>
+            </div>
+        </div>
+        <div class="md:col-start-3 md:col-end-7 xl:col-start-3 xl:col-end-7 text-center self-center font-fraun text-base md:text-xl xl:text-xl">
+            <a class="desktop_tablet_menu"href="#mk">M.K</a>
+            <a class="desktop_tablet_menu" href="#experience">Experience</a>
+            <a class="desktop_tablet_menu" href="#skills">Skills</a>
+            <a class="desktop_tablet_menu" href="#education">Education</a>
+            <a class="desktop_tablet_menu" href="#projects">Projects</a>
+            <a class="desktop_tablet_menu" href="#contact">Contact</a>
+            <a class="desktop_tablet_menu" href="#contact">Credits</a>
+            <div class="">
+                <p class="mt-4 text-xs italic ">(&#169;)2023.All rights reserved by Michael Kanios</p>
+            </div>
+        </div>
+    </div>
+    <!-- Back to top Button -->
+    <button id="to-top-button" onclick="goToTop()" title="Go To Top"
+        class="hidden fixed z-90 bottom-8 right-4 border-0 w-8 h-8 md:w-10 md:h-10 xl:w-12 xl:h-12 rounded-full drop-shadow-md bg-red-400 text-white text-3xl font-bold">&#94;</button>
+    <script>
+        var toTopButton = document.getElementById("to-top-button");
+        window.onscroll = function () {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) { toTopButton.classList.remove("hidden"); }
+            else {
+                toTopButton.classList.add("hidden");
+            }
+        }
+        function goToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+    <!--  End of back to top Button -->
+    <script src="mobile_menu.js" charset="utf-8"></script>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
