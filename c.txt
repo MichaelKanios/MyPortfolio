@@ -1,38 +1,19 @@
 Hello,
 My name is Michael Kanios.
 
-Before transitioning fully into web development, I worked
-in Sales as a Sales Manager for 20 years in pharmaceutical industry, which has given me strong
-communication skills and a business-oriented mindset —
-something I always bring into my web projects.
+I currently work in the pharmaceutical industry, where I have over 20 years of experience as a Sales Manager. 
+This has helped me develop strong communication skills and a business mindset, 
+which I also bring into my web projects.
 
-Over the past months, I’ve been developing projects using
-React, Next.js, and TailwindCSS, focusing on creating
-clean, responsive, and performance-oriented front-end
-builds.
+At the same time, I am transitioning into web development. Over the past months, 
+i have been building front-end projects using React, Next.js, and TailwindCSS, focusing on clean, responsive, 
+and fast user interfaces.
 
-This modern stack has helped me adopt a component-based,
-reusable, and scalable approach to web development.
-In parallel, I have solid experience as a WordPress
-developer, building and optimizing websites with
-Elementor Pro, custom CSS, and thoughtful plugin
-selection based on performance, security, and
-maintainability.
+I also have solid experience with WordPress, working with Elementor Pro, 
+custom CSS, and careful plugin selection to ensure good performance and maintainability.
 
-I have experience with:
-• React / Next.js front-end development using
-TailwindCSS
-• Creating modular UI components and clean layout
-structures
-• Responsive design and optimized page performance
-• Building and editing WordPress websites with
-Elementor Pro
-• Custom CSS and small JavaScript tweaks when needed
-
-I’m looking for a collaborative and growth-focused
-environment where I can contribute long-term, improve my
-technical skills, and deliver reliable, well-structured
-solutions.
+I enjoy working in a collaborative environment where I can grow as a developer, 
+improve my skills, and deliver reliable, well-structured solutions.
 
 My Portfolio
 https://my-portfolio-project-react-tailwind.vercel.app/
